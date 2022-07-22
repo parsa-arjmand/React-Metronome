@@ -1,0 +1,33 @@
+section.metro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+}
+.play-btn {
+  width: 11rem;
+  height: 11rem;
+  border: none;
+  border-radius: 100%;
+  background: var(--main-color);
+  margin-bottom: 1.2rem;
+  outline: none;
+}
+.play-img {
+  height: 84px;
+  width: 84px;
+}
+.blink {
+  height: 1rem;
+  width: 9rem;
+  border-radius: 4px;
+  background-color: var(--secondary-bg);
+  overflow: hidden;
+}
+.blink-dot {
+  height: 100%;
+  width: 1rem;
+  border-radius: 2px;
+  background-color: var(--main-color);
+}

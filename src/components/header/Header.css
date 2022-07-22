@@ -1,0 +1,70 @@
+header {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 30vh;
+  width: 100%;
+}
+.header-container {
+  background-color: var(--secondary-bg);
+  padding: 2.1rem 0;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.counter-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.btn {
+  background-color: var(--main-color);
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  cursor: pointer;
+}
+.num {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 0 0.7rem;
+  color: var(--white-text);
+}
+.buttons {
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button.left {
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.2rem;
+  background-color: var(--main-color);
+  color: white;
+  margin-right: 1rem;
+  font-family: inherit;
+  font-weight: bold;
+  width: 3.7rem;
+}
+button.right {
+  border: none;
+  outline: 2px solid var(--main-color);
+  border-radius: 8px;
+  padding: 0.8rem 1.1rem;
+  background-color: transparent;
+  color: var(--main-color);
+  font-weight: bold;
+  font-family: inherit;
+}
+.minus-icon {
+  width: 10px;
+  height: 10px;
+}
+.plus-icon {
+  width: 10px;
+  height: 10px;
+}
