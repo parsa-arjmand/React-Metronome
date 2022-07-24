@@ -24,6 +24,7 @@ const App = () => {
           counter={counter}
           setCounter={setCounter}
           setMeasure={setMeasure}
+          isPlaying={isPlaying}
           setIsPlaying={setIsPlaying}
           measure={measure}
           setAudio1={setAudio1}

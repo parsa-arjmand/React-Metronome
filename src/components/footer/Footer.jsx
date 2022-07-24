@@ -18,8 +18,6 @@ function Footer({ theme, setTheme, isPlaying }) {
     }
     return () => clearInterval(interval);
   }, [isPlaying]);
-  console.log(timer);
-  console.log(currentTimer);
   return (
     <section className="footer">
       <Theme theme={theme} setTheme={setTheme} />

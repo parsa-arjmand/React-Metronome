@@ -9,6 +9,7 @@ function Header({
   setCounter,
   setMeasure,
   measure,
+  isPlaying,
   setIsPlaying,
   setAudio1,
   setAudio2,
@@ -26,7 +27,12 @@ function Header({
   return (
     <header className="header">
       <div className="header-container">
-        <Counter counter={counter} setCounter={setCounter} />
+        <Counter
+          counter={counter}
+          setCounter={setCounter}
+          setIsPlaying={setIsPlaying}
+          isPlaying={isPlaying}
+        />
         <div className="buttons">
           <button className="left" onClick={clickMeasureSet}>
             {measure}

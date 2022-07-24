@@ -63,6 +63,7 @@ button.right {
   border: none;
   outline: 2px solid var(--main-color);
   border-radius: 8px;
+  -webkit-border-radius: 8px;
   padding: 0.8rem 1.1rem;
   background-color: transparent;
   color: var(--main-color);

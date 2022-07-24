@@ -1,12 +1,15 @@
 import React from "react";
 import plus from "../../assets/plus.svg";
 import minus from "../../assets/minus.svg";
-function Counter({ counter, setCounter }) {
+function Counter({ counter, setCounter, isPlaying, setIsPlaying }) {
+  const playCheck = () => isPlaying && setIsPlaying(false);
   const counterPlus = () => {
     setCounter((prevCount) => prevCount + 1);
+    playCheck();
   };
   const counterMinus = () => {
     setCounter((prevCount) => prevCount - 1);
+    playCheck();
   };
   return (
     <div className="counter-wrapper">
