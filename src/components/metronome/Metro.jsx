@@ -47,7 +47,7 @@ function Metro({
         <motion.button
           aria-label="play button"
           animate={
-            count === measure ? { scale: 1.1, backgroundColor: "#6100ff" } : {}
+            count === measure ? { scale: 1.1, backgroundColor: "#0057e9" } : {}
           }
           className="play-btn"
           onClick={() => setIsPlaying(!isPlaying)}
