@@ -15,12 +15,14 @@ i {
   --secondary-bg: #26272f;
   --main-color: #6530bb;
   --white-text: #cacaca;
+  --darker-text: #a1a1a1;
 }
 [data-theme="light"] {
   --main-bg-color: #fcfcfc;
   --secondary-bg: #f0f1f5;
   --main-color: #6530bb;
   --white-text: #272727;
+  --darker-text: #444444;
 }
 
 .app {

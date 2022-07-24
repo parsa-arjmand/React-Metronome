@@ -19,6 +19,7 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 1rem;
+  position: relative;
 }
 .btn {
   background-color: var(--main-color);
@@ -33,11 +34,19 @@ header {
   padding: 0 0.7rem;
   color: var(--white-text);
 }
+.bpm {
+  position: absolute;
+  bottom: -10px;
+  font-family: inherit;
+  color: var(--darker-text);
+  font-size: 12px;
+}
 .buttons {
   font-family: "Montserrat";
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 0.6rem;
 }
 button.left {
   border: none;

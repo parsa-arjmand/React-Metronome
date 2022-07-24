@@ -19,6 +19,7 @@ function Counter({ counter, setCounter }) {
         <img className="minus-icon" src={minus} alt="" />
       </button>
       <span className="num">{counter}</span>
+      <span className="bpm">BPM</span>
       <button
         aria-label="increase bpm"
         className="btn"
