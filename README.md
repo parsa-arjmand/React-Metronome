@@ -1,9 +1,9 @@
 # React Metronome App
 
-This app is built with react
+**This app is built with react**
 
-# App Features
+## App features
 
--various time signatures
--dark/light mode
--use time of the app
+* various time signatures
+* dark/light mode
+* customizable tunes
